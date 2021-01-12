@@ -82,7 +82,7 @@ for channel in channels:
         "claim",
         "search",
         f"--channel={channel}",
-        "--stream_type=video",
+        "--stream_type=image",
         f"--page_size={page_size}",
         "--order_by=release_time",
     ]
